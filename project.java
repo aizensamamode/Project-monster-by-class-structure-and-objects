@@ -4,17 +4,20 @@ public class project {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
             // create enemy using constructor
+            //create monster
             monster GOBLIN = new monster("goblin warrior", 30, 5);
 
             // player and starting prompt
+            //set up player and starting class methods
             starting startpoint = new starting();
             player Player = new player(100, 7);
-
+             
+            //starting prompt from starting class
             startpoint.start();
             String answer_starting = scan.nextLine().trim();
             if (answer_starting.equalsIgnoreCase("y")) {
                 startpoint.ifyes();
-            } else {
+            } else { 
                 startpoint.ifno();
                 return;
             }
