@@ -6,6 +6,7 @@ public class project {
         try (Scanner scan = new Scanner(System.in)) {
             // create enemy using constructor
             //create monster
+            System.out.println("sample code test checking");
             monster GOBLIN = new monster("goblin warrior", 30, 5);
 
             // player and starting prompt
@@ -19,7 +20,7 @@ public class project {
             if (answer_starting.equalsIgnoreCase("y")) {
                 startpoint.ifyes();
             } else { 
-                startpoint.ifnos();
+                startpoint.ifno();
                 return;
             }
 
@@ -36,7 +37,7 @@ public class project {
                 String encounter = scan.nextLine().trim();
 
                 if (encounter.equalsIgnoreCase("run")) {
-                    System.out.println("You ran away!");
+                    System.out.println("You ran away nigga!");
                     break;
                 }
 
