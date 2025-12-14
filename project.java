@@ -6,7 +6,7 @@ public class project {
         try (Scanner scan = new Scanner(System.in)) {
             // create enemy using constructor
             //create monster
-            System.out.println("sample code test checking");
+            System.out.println("done good job sleep now");
             monster GOBLIN = new monster("goblin warrior", 30, 5);
 
             // player and starting prompt
