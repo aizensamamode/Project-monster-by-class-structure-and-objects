@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// ive updated check if it works
 
 public class project {
     public static void main(String[] args) {
@@ -59,6 +60,7 @@ public class project {
 
                 if (!Player.isAlive()) {
                     System.out.println("You have been defeated...");
+                    System.out.println("Game Over.");
                     break;
                 }
             }
