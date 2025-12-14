@@ -19,7 +19,7 @@ public class project {
             if (answer_starting.equalsIgnoreCase("y")) {
                 startpoint.ifyes();
             } else { 
-                startpoint.ifno();
+                startpoint.ifnos();
                 return;
             }
 
